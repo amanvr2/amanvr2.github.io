@@ -1,7 +1,6 @@
 console.log('js loaded');
 
 var names = ['Simran', 'Naina', 'Sakshi', 'Priyanka', 'Yash', 'Rimmi'];
-var numbers = [0,1, 2, 3, 4, 5];
 
 var intMax = 5;
 var intMin = 0;
@@ -29,5 +28,9 @@ function getRandomArbitrary() {
     min = Math.ceil(intMin);
     max = Math.floor(intMax);
     return Math.floor(Math.random() * (max - min + 1) + min);
-  }
+}
+
+function test(){
+    document.getElementById('luckyName').innerHTML = "Agle ko do phone";
+}
   

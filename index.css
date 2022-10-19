@@ -1,0 +1,18 @@
+.spin{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 20px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#luckyName{
+    font-size: 25px;
+}
