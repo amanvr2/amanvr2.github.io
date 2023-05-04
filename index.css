@@ -1,0 +1,583 @@
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: #212529;
+  /* justify-content: center; */
+  align-items: center;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.footer-icons {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.footericons-item > a {
+  font-size: 24px;
+  color: white;
+}
+
+.footer-links {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.footerlinks-item > a {
+  font-size: 20px;
+  padding: 40px;
+  color: white;
+}
+
+.footer-copy {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.footer-copy > p {
+  text-align: center;
+}
+
+.navbar-default {
+  margin-bottom: 0px !important;
+  background-color: white;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+
+.head {
+  height: 700px;
+  width: 100%;
+
+  margin-top: 0px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/head-banner.jpeg);
+  background-size: cover;
+}
+.head-content {
+  display: flex;
+  flex-flow: column;
+}
+.head-content > h1,
+.head-content > h4 {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.intro {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(125deg, #292731 25%, #2d2b36 25%);
+}
+
+.intro-list {
+  display: flex;
+  flex-flow: row;
+  width: 80%;
+}
+
+.intro-item,
+.intro-img {
+  width: 50%;
+}
+.intro-img > img {
+  height: 300px;
+  width: 220px;
+}
+.intro-item > p {
+  color: white;
+  font-size: 18px;
+}
+
+.goal {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+}
+
+.goal-sub {
+  width: 70%;
+  text-align: center;
+}
+
+.goal-sub > h3 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.goal-sub > p {
+  font-size: 18px;
+}
+
+.proficiency {
+  width: 100%;
+  background-color: lightgray;
+  height: 500px;
+}
+
+.prof-list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.prof-item {
+  width: 50%;
+}
+
+.prof-items {
+  width: 50%;
+  /* /* padding-top: 50px; */
+  padding-left: 50px;
+  display: flex;
+  flex-flow: column;
+
+  justify-content: center;
+}
+
+.prof-item > img {
+  height: 500px;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.prof-items > a {
+  width: 150px;
+  border-radius: 2rem;
+}
+
+.prof-items > h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.prof-items > h5 {
+  font-size: 18px;
+}
+
+.prof-items > ul > li {
+  font-size: 18px;
+}
+
+.work-head {
+  padding-left: 40px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.work-1 {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-2 {
+  background-color: #313131;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-3 {
+  background-color: #1864ab;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-4 {
+  background-color: #00cb84;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-5 {
+  background-color: #457868;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-6 {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-7 {
+  background-color: #212529;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-8 {
+  background-color: #1864ab;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-9 {
+  background-color: teal;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work1-list {
+  width: 70%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.work1-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work2-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work3-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work4-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work5-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work6-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work7-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work8-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work9-content {
+  width: 70%;
+  padding-left: 50px;
+}
+
+.work2-content > h2,
+.work2-content > p,
+.work3-content > h2,
+.work3-content > p,
+.work4-content > p,
+.work4-content > h2,
+.work5-content > p,
+.work5-content > h2,
+.work7-content > p,
+.work7-content > h2,
+.work8-content > p,
+.work8-content > h2,
+.work9-content > p,
+.work9-content > h2 {
+  color: white;
+}
+
+.work1-content > a {
+  background: #212121;
+  color: white;
+}
+
+.work2-content > a {
+  background: #212121;
+  color: white;
+}
+
+.work3-content > a {
+  background-color: #212121;
+  color: white;
+}
+
+.work4-content > a {
+  background-color: #212121;
+  color: white;
+}
+
+.work6-content > a {
+  background-color: #212121;
+  color: white;
+}
+
+.work1-image {
+  width: 30%;
+  margin-left: 30px;
+}
+
+.work1-image > img {
+  height: 240px;
+  width: 350px;
+}
+
+.all-work {
+  background-color: #034e94;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.all-work > a {
+  border-radius: 2rem;
+  background-color: 034e94;
+  color: white;
+  border: 1px solid white;
+}
+
+.all-work > a:hover {
+  background-color: white;
+  color: 034e94;
+}
+
+.logo {
+  text-align: center;
+}
+.logo > img {
+  height: 65px;
+  width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .head {
+    width: 100%;
+    height: 500px;
+  }
+
+  .logo > img {
+    height: 65px;
+    width: 80px;
+  }
+
+  .intro {
+    height: auto;
+    width: 100%;
+  }
+
+  .intro-list {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head-content > h4 {
+    font-size: 16px;
+    padding: 31px;
+  }
+
+  .intro-list {
+    padding-top: 20px;
+  }
+
+  .intro-img {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .intro-item {
+    width: 75%;
+    text-align: justify;
+    padding-bottom: 30px;
+  }
+
+  .intro-item > p {
+    font-size: 15px;
+  }
+
+  .intro-img > img {
+    height: 180px;
+    width: 130px;
+  }
+
+  .goal {
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .goal-sub > h3 {
+    padding-bottom: 20px;
+  }
+
+  .goal-sub > p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .proficiency {
+    height: auto;
+    width: 100%;
+  }
+
+  .prof-list {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .prof-items {
+    width: 90%;
+    padding: 0px;
+    padding-top: 20px;
+  }
+
+  .prof-items > h4 {
+    font-size: 21px;
+  }
+
+  .prof-items > h5 {
+    font-size: 19px;
+  }
+
+  .prof-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .prof-item > img {
+    height: 265px;
+    width: 300px;
+  }
+  .footer-links {
+    display: none;
+  }
+
+  .footer-icons {
+    width: 80%;
+  }
+
+  .work-head {
+    padding: 20px;
+  }
+
+  .work-head > p {
+    text-align: justify;
+  }
+
+  .work-1,
+  .work-2,
+  .work-3,
+  .work-4,
+  .work-5,
+  .work-6,
+  .work-7,
+  .work-8,
+  .work-9 {
+    height: auto;
+    width: 100%;
+  }
+
+  .work1-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .work1-content,
+  .work2-content,
+  .work3-content,
+  .work4-content,
+  .work5-content,
+  .work6-content,
+  .work7-content,
+  .work8-content,
+  .work9-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .work1-image {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .work1-image > img {
+    height: 200px;
+    width: 330px;
+    margin-top: 20px;
+  }
+
+  #a {
+    margin: 10px;
+  }
+}
