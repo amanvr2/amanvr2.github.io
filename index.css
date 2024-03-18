@@ -105,8 +105,13 @@
 .intro-img {
   width: 50%;
 }
+.intro-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .intro-img > img {
-  height: 300px;
+ 
   width: 220px;
 }
 .intro-item > p {
@@ -453,6 +458,7 @@ body {
     width: 75%;
     text-align: justify;
     padding-bottom: 30px;
+    padding-top: 20px;
   }
 
   .intro-item > p {
@@ -460,7 +466,7 @@ body {
   }
 
   .intro-img > img {
-    height: 180px;
+    
     width: 130px;
   }
 
